@@ -25,19 +25,19 @@ Sistema para controle simples e prático de cadastros e consultas de usuários.
 
 1. **Homepage**
 
-    `URL` []()
+    `URL` [https://ocxerf.herokuapp.com](https://ocxerf.herokuapp.com)
 
 2. **Cadastrar**
 
-    `URL` []()
+    `URL` [https://ocxerf.herokuapp.com/usuarios/cadastrar](https://ocxerf.herokuapp.com/usuarios/cadastrar)
 
 3. **Consultar**
 
-    `URL` []()
+    `URL` [https://ocxerf.herokuapp.com/usuarios/consultar](https://ocxerf.herokuapp.com/usuarios/consultar)
 
 3. **Consultar - JSON**
 
-    `URL` []()
+    `URL` [https://ocxerf.herokuapp.com/usuarios/consultar/json](https://ocxerf.herokuapp.com/usuarios/consultar/json)
 
 ---
 
