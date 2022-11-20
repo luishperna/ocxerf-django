@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+
+<h1>__ Boas vindas ao <span>Ocxerf</span> __</h1>
+<h2>Seu sistema favorito de cadastros e consultas de usuários</h2>
+<h3>Para prosseguirmos me digo o que deveja?</h3>
+
+<div class="buttons">
+    <a href="{% url 'createusers' %}"><button>Quero cadastrar!</button></a>
+    <a href="{% url 'listusers' %}"><button>Quero consultar!</button></a>
+</div>
+
+{% endblock content %}

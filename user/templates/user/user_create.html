@@ -1,0 +1,24 @@
+{% extends 'main/base.html' %}
+{% block content %}
+
+<h2>Ótimo, temos um novo usuário para cadastrar!</h2>
+<h3>Só preciso dessas 3 informações, o resto pode deixar comigo :)</h3>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+
+    {% for message in messages %}
+        {{ message }}
+    {% endfor %}
+
+    <div class="buttons">
+        <input id="save_form" type="submit" value="Cadastrar!"></input>
+    </div>
+</form>
+
+<div class="buttons">
+    <a href="{% url 'homepage' %}"><button>Voltar</button></a>
+</div>
+
+{% endblock content %}

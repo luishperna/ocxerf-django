@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocxerf</title>
+
+    <link rel="stylesheet" href="{% static '/css/style.css' %}" type="text/css">
+
+</head>
+<body>
+
+    <header><h3><span>__ Ocxerf __</span></h3></header>
+    
+    <main>
+    
+    {% block content %}
+    {% endblock content %}
+    
+    </main>
+
+    <footer>
+        <div>
+            <h3>Desenvolvido por <a href="https://luishperna.com.br/" target="_blank">luishperna.com.br</a></h3>
+        </div>
+    </footer>
+
+</body>
+</html>

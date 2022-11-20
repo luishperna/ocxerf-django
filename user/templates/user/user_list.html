@@ -1,0 +1,35 @@
+{% extends 'main/base.html' %}
+{% block content %}
+
+
+<h2 id="h2-aqui">Perfeito, aqui conseguimos visualizar todos os usuários cadastrados:</h2>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Login</th>
+            <th>Data de nascimento</th>
+            <th>Senha</th>
+        </tr>
+        <tbody>
+            {% for user in object_list %}
+            <tr>
+                <td>{{ user.login }}</td>
+                <td>{{ user.data_de_nascimento|date:'d/m/Y' }}</td>
+                <td>{{ user.senha }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </thead>
+</table>
+
+
+<h3>Organizei todos os usuários em um JSON, dê uma olhadinha também!</h3>
+
+<div class="buttons">
+    <a href="{% url 'json' %}"><button>Consultar JSON</button></a>
+    <a href="{% url 'homepage' %}"><button>Voltar</button></a>
+</div>
+
+{% endblock content %}
