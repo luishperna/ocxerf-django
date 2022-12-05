@@ -20,7 +20,7 @@ Sistema para controle simples e prático de cadastros e consultas de usuários.
 ![ocxerf](https://user-images.githubusercontent.com/96630233/205526328-6bdfbb6e-5e79-453a-88bb-2fe294e4842c.gif)
 
 <h4 align="center">
-| O sistema possibilita consultar em JSON|
+| O sistema possibilita consultar em JSON |
 </h4>
 
 ---
