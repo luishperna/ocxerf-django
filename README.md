@@ -23,6 +23,10 @@ Sistema para controle simples e prático de cadastros e consultas de usuários.
 | O sistema possibilita consultar em JSON |
 </h4>
 
+<h4 align="center">
+| O sistema gera senha automaticamente, caso não detectar uma digitada pelo usuário |
+</h4>
+
 ---
 
 ## :oncoming_automobile: URLs - Rotas
